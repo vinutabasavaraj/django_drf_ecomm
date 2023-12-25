@@ -10,6 +10,7 @@ black==23.12.0
 flake8==6.1.0
 django-mptt==0.15.0
 drf-spectacular==0.27.0
+djangorestframework-simplejwt==5.3.1
 
 
 #Commands
