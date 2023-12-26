@@ -23,7 +23,8 @@ INSTALLED_APPS = [
     'drf_spectacular',
     'drfecomm.product',
     'rest_framework_simplejwt',
-]
+    'rest_framework_simplejwt.token_blacklist',
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -121,7 +122,6 @@ SEPCTACULAR_SETTINGS = {
 }
 
 from datetime import timedelta
-...
 
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),

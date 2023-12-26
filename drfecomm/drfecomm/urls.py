@@ -2,11 +2,11 @@
 from django.contrib import admin
 from django.urls import path,include
 from rest_framework.routers import DefaultRouter
-from rest_framework_simplejwt.views import (
-    TokenObtainPairView,
-    TokenRefreshView,
-    TokenVerifyView,
-)
+# from rest_framework_simplejwt.views import (
+#     TokenObtainPairView,
+#     TokenRefreshView,
+#     TokenVerifyView,
+# )
 
 
 
@@ -20,6 +20,7 @@ router.register(r"brand", views.BrandViewSet, basename="brand")
 router.register(r"product", views.ProductViewSet, basename="product")
 router.register(r"login", views.LoginViewSet, basename="login")
 router.register(r"register", views.RegisterViewSet, basename="register")
+# router.register(r"logout", views.LogoutViewSet, basename="logout")
 
 
 
