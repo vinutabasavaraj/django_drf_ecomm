@@ -1,6 +1,8 @@
 Django Rest Framework E-commerce API
 Introduction
-Welcome to the Django Rest Framework (DRF) E-commerce API! This project offers a robust API designed for the management of users, categories, brands, and products. It incorporates essential features such as user registration, login capabilities, and comprehensive CRUD operations for categories.
+
+
+Welcome to the Django Rest Framework (DRF) E-commerce API! This project offers a robust API for efficient management of users, categories, brands, and products. Key features include user registration, login, and comprehensive CRUD operations for categories. Additionally, the API implements pagination for better data handling using `PageNumberPagination`.
 
 Features
 User Authentication:
