@@ -16,7 +16,7 @@ Brand and Product:
 
 Offers a dedicated API for retrieving detailed information about brands and products.
 
-Getting Started\
+Getting Started
 
 To set up and run the project locally, follow these steps:
 
