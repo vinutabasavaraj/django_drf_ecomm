@@ -22,14 +22,16 @@ To set up and run the project locally, follow these steps:
 
 1. Clone the Repository:
 	git clone https://github.com/vinutabasavaraj/django_drf_ecomm
+
 	cd drf-ecommerce-api
-2. Install Dependencies:
+
+3. Install Dependencies:
 	pip install -r requirements.txt
 
-3. Run the Application Locally:
+4. Run the Application Locally:
 	python manage.py runserver
 
-4. Swagger Docs:
+5. Swagger Docs:
 	http://localhost:8000/api/schema/docs/
 
 
